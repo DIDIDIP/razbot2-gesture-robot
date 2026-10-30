@@ -117,6 +117,35 @@
 | 팀원들의 손짓이 서로 겹침 | 손짓 사전(6장)에 먼저 등록하고, 모드를 바꾸는 손짓 두기 |
 | 추가 부품(센서·바퀴) 연결이 늦어짐 | 기본 기능을 먼저 완성하고, 추가 부품은 선택 기능으로 두기 |
 
+## 9. 참고 영상
+
+먼저 라즈봇2를 조립하고 노트북과 연결한 뒤, 제스처 영상을 순서대로 봅니다. 대부분 영어 영상이라, YouTube 자막 설정에서 "자동 번역 → 한국어"를 켜고 보세요.
+
+**라즈봇2 연결 영상**
+
+| 순서 | 영상 | 무엇을 배우나 |
+| --- | --- | --- |
+| 1 | [Raspbot V2 New Installation Video](https://www.youtube.com/watch?v=LZOFoJQDJCo) | 로봇 조립 (새 버전) |
+| 1-1 | [Raspbot V2 Car Installation Video](https://www.youtube.com/watch?v=o7p23eSqzY4) | 로봇 조립 (이전 버전). 우리 키트에 맞는 쪽을 보기 |
+| 2 | [[Raspbot V2] Camera driver tutorial](https://www.youtube.com/watch?v=mNfCQY3BoA0) | 카메라 설정. 제스처 인식 전에 꼭 필요 |
+| 3 | [Connect Raspberry Pi to Your Laptop Using PuTTY and VNC](https://www.youtube.com/watch?v=cMB6YdrF0-M) | 노트북에서 로봇에 원격 접속하기 (라즈베리 파이 공통) |
+| 3-1 | [Connect to Raspberry Pi using VNC Viewer (troubleshooting)](https://www.youtube.com/watch?v=08ZwV9xofWw) | 접속이 안 될 때 문제 해결 |
+
+설정 방법과 예제 코드는 Yahboom 공식 튜토리얼([Raspbot V2 상품 페이지](https://category.yahboom.net/products/raspbot-v2)의 Tutorials 링크)에 있습니다. 우리 라즈봇2가 Yahboom Raspbot V2와 같은 제품인지는 확인이 필요합니다.
+
+**제스처 영상**
+
+| 순서 | 영상 | 무엇을 배우나 |
+| --- | --- | --- |
+| 1 | [[Raspbot V2] Gesture following](https://www.youtube.com/watch?v=yDZ3s1qCajs) | 라즈봇2가 손을 따라 움직이는 완성 모습 |
+| 2 | [Using gesture recognition in your Raspberry Pi apps with MediaPipe](https://www.youtube.com/watch?v=EWaYOil--sQ) | 라즈베리 파이에서 제스처 인식 기본 (구글 공식) |
+| 3 | [MediaPipe Hands Tracking and Counting on Raspberry Pi](https://www.youtube.com/watch?v=7dtUAaG230U) | 손가락 개수 세기. 가위바위보 판정의 기초 |
+| 4 | [Python game with Mediapipe Hands: Rock Paper Scissors](https://www.youtube.com/watch?v=ExuE0Pnqzac) | 가위바위보 게임 만들기 (기본 기능) |
+| 5 | [Hand Gesture Controlled Robotic Car (MediaPipe + Arduino)](https://www.youtube.com/watch?v=p6TtNjq5-LY) | 손짓으로 자동차 움직이기 (손가락 운전·골키퍼) |
+| 6 | [Custom Hand Gesture Recognition with Hand Landmarks](https://www.youtube.com/watch?v=a99p_fAr6e4) | 우리만의 손짓 직접 학습시키기 (팀원별 추가 기능) |
+
+로봇이 켜질 때 자동으로 실행되는 프로그램이 카메라를 쓰고 있으면 제스처 예제가 실행되지 않을 수 있습니다. 예제가 안 돌면 그 프로그램부터 끕니다([참고](https://www.waveshare.com/wiki/22_Gesture_Recognition_Based_on_MediaPipe)).
+
 ## 용어 풀이
 
 | 용어 | 뜻 |
